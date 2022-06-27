@@ -14,7 +14,7 @@ info:
     name: GNU General Public License v3.0
     url: 'https://github.com/fleetyards/fleetyards/blob/main/LICENSE'
 tags:
-  - name: /models
+  - name: Models
     description: Models
 servers:
   - url: 'http://api.fleetyards.test/v1'
@@ -26,9 +26,9 @@ servers:
 paths:
   /models:
     get:
-      summary: Models
+      summary: Models Index
       tags:
-        - /models
+        - Models
       responses:
         '200':
           description: OK
@@ -58,9 +58,9 @@ paths:
         required: true
         description: Slug
     get:
-      summary: Model
+      summary: Model Detail
       tags:
-        - /models
+        - Models
       responses:
         '200':
           description: OK
