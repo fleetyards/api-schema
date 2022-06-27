@@ -2,10 +2,10 @@ openapi: 3.1.0
 x-stoplight:
   id: dd4a2d0985b96
 info:
-  title: Fleetyards API V1
+  title: Fleetyards API - V1 Schema
   version: '1.0'
-  summary: Fleetyards API V1
-  description: Fleetyards API V1
+  summary: V1 Schema
+  description: Fleetyards API - V1 Schema
   contact:
     name: Marten Klitzke
     url: 'https://fleetyards.net'
@@ -17,7 +17,12 @@ tags:
   - name: models
     description: Models
 servers:
-  - url: 'http://localhost:3000'
+  - url: 'http://api.fleetyards.test/v1'
+    description: development
+  - url: 'https://stage.fleetyards.net/api/v1'
+    description: stage
+  - url: 'https://api.fleetyards.net/v1'
+    description: live
 paths:
   /models:
     get:
