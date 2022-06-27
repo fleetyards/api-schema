@@ -45,14 +45,6 @@ paths:
               examples: {}
       operationId: get-models
       description: List of Models
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: array
-              items:
-                $ref: '#/components/schemas/Model'
-            examples: {}
   '/models/{slug}':
     parameters:
       - schema:
@@ -97,13 +89,6 @@ paths:
                 items:
                   $ref: '#/components/schemas/Image'
       operationId: get-models-slug-images
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: array
-              items:
-                $ref: '#/components/schemas/Image'
       description: Model Images
   '/models/{slug}/videos':
     parameters:
@@ -129,13 +114,6 @@ paths:
                   $ref: '#/components/schemas/Video'
       operationId: get-models-slug-videos
       description: Model Videos
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: array
-              items:
-                $ref: '#/components/schemas/Video'
 components:
   schemas:
     Model:
