@@ -42,6 +42,34 @@ paths:
               items:
                 $ref: '#/components/schemas/Model'
             examples: {}
+  '/models/{slug}':
+    parameters:
+      - schema:
+          type: string
+        name: slug
+        in: path
+        required: true
+        description: Slug
+    get:
+      summary: Model
+      tags:
+        - models
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Model'
+        '404':
+          description: Not Found
+      operationId: get-models-slug
+      description: Model Detail
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Model'
 components:
   schemas:
     Model:
