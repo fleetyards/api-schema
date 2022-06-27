@@ -1,4 +1,6 @@
 openapi: 3.1.0
+x-stoplight:
+  id: dd4a2d0985b96
 info:
   title: Fleetyards API V1
   version: '1.0'
@@ -641,6 +643,7 @@ components:
       properties:
         id:
           type: string
+          format: uuid
         name:
           type: string
         scIdentifier:
@@ -753,8 +756,10 @@ components:
           type: integer
         angledView:
           type: string
+          format: uri
         angledViewSmall:
           type: string
+          format: uri
         angledViewMedium:
           type: string
         angledViewLarge:
@@ -857,15 +862,19 @@ components:
                 type: string
         createdAt:
           type: string
+          format: date-time
         updatedAt:
           type: string
+          format: date-time
         links:
           type: object
           properties:
             self:
               type: string
+              format: uri
             frontend:
               type: string
+              format: uri
     Manufacturer:
       type: object
       properties:
@@ -891,46 +900,6 @@ components:
       description: 'Manufacturer of Models, Components and Equipment'
     Shop:
       type: object
-      properties:
-        id:
-          type: string
-        name:
-          type: string
-        slug:
-          type: string
-        type:
-          type: string
-        typeLabel:
-          type: string
-        stationLabel:
-          type: string
-        location:
-          type: 'null'
-        locationLabel:
-          type: string
-        rental:
-          type: boolean
-        buying:
-          type: boolean
-        selling:
-          type: boolean
-        storeImage:
-          type: string
-        storeImageLarge:
-          type: string
-        storeImageMedium:
-          type: string
-        storeImageSmall:
-          type: string
-        refineryTerminal:
-          type: boolean
-        station:
-          type: object
-          properties:
-            name:
-              type: string
-            slug:
-              type: string
       x-examples:
         example-1:
           id: f3145a4d-e5a8-481e-bff3-bc5251bd0667
@@ -973,6 +942,51 @@ components:
             name: Lorville
             slug: lorville
       description: 'Shop located on Stations, Landingzones and Outposts'
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+        slug:
+          type: string
+        type:
+          type: string
+        typeLabel:
+          type: string
+        stationLabel:
+          type: string
+        location:
+          type: 'null'
+        locationLabel:
+          type: string
+        rental:
+          type: boolean
+        buying:
+          type: boolean
+        selling:
+          type: boolean
+        storeImage:
+          type: string
+          format: uri
+        storeImageLarge:
+          type: string
+          format: uri
+        storeImageMedium:
+          type: string
+          format: uri
+        storeImageSmall:
+          type: string
+          format: uri
+        refineryTerminal:
+          type: boolean
+        station:
+          type: object
+          properties:
+            name:
+              type: string
+            slug:
+              type: string
     ShopCommodity:
       type: object
       x-examples:
