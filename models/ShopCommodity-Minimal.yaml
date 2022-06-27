@@ -1,0 +1,166 @@
+type: object
+x-examples:
+  example-1:
+    id: 9606253f-876f-41b7-ba4b-7146a75a0f6f
+    name: 600i Explorer
+    slug: 600i-explorer
+    storeImage: 'http://fleetyards.test/uploads/model/store_image/bd/06/2120-034e-4bdc-a979-9b02644b5f3c/Day8_Origin600i-Min_noicon-c3836ae2-3621-4be7-90aa-8c6e5c2c11ab-2044ef6b-a36a-4c20-84b2-f678498fde29.jpg'
+    storeImageLarge: 'http://fleetyards.test/uploads/model/store_image/bd/06/2120-034e-4bdc-a979-9b02644b5f3c/large_Day8_Origin600i-Min_noicon-c3836ae2-3621-4be7-90aa-8c6e5c2c11ab-2044ef6b-a36a-4c20-84b2-f678498fde29.jpg'
+    storeImageMedium: 'http://fleetyards.test/uploads/model/store_image/bd/06/2120-034e-4bdc-a979-9b02644b5f3c/medium_Day8_Origin600i-Min_noicon-c3836ae2-3621-4be7-90aa-8c6e5c2c11ab-2044ef6b-a36a-4c20-84b2-f678498fde29.jpg'
+    storeImageSmall: 'http://fleetyards.test/uploads/model/store_image/bd/06/2120-034e-4bdc-a979-9b02644b5f3c/small_Day8_Origin600i-Min_noicon-c3836ae2-3621-4be7-90aa-8c6e5c2c11ab-2044ef6b-a36a-4c20-84b2-f678498fde29.jpg'
+    category: model
+    subCategory: exploration
+    subCategoryLabel: Exploration
+    description: 'Let the voyage begin with the 2947 600i from Origin Jumpworks. This multi-role luxury vessel from Origin Jumpworks features an exquisitely detailed hull design that balances performance and versatility in a sleek and timeless form. The 600i is designed with a cutting-edge modular technology, allowing you to customize your ship for your needs. Looking to stamp your name in history with the discovery of a new star system? The 600i''s Explorer module swaps the lounge for a robust scanning station as well as additional utility hardpoints to increase the ship''s effectiveness even more.'
+    pricePerUnit: false
+    sellPrice: '9475100.0'
+    averageSellPrice: '9475100.0'
+    buyPrice: null
+    averageBuyPrice: null
+    rentalPrice1Day: null
+    averageRentalPrice1Day: null
+    rentalPrice3Days: null
+    averageRentalPrice3Days: null
+    rentalPrice7Days: null
+    averageRentalPrice7Days: null
+    rentalPrice30Days: null
+    averageRentalPrice30Days: null
+    locationLabel: sold at Astro Armada on Area 18
+    confirmed: true
+    commodityItemType: Model
+    commodityItemId: bd062120-034e-4bdc-a979-9b02644b5f3c
+    shop:
+      id: 41aee29a-9d84-437b-ae3f-bd8dbd88afb4
+      name: Astro Armada
+      slug: astro-armada
+      type: ships
+      typeLabel: Ship Store
+      stationLabel: at Area 18
+      location: null
+      locationLabel: at Area 18 on ArcCorp
+      rental: false
+      buying: false
+      selling: true
+      storeImage: 'http://fleetyards.test/uploads/shop/store_image/41/ae/e29a-9d84-437b-ae3f-bd8dbd88afb4/astro-9cb92a90-80c6-40bf-aa9c-30162c852777.jpg'
+      storeImageLarge: 'http://fleetyards.test/uploads/shop/store_image/41/ae/e29a-9d84-437b-ae3f-bd8dbd88afb4/large_astro-9cb92a90-80c6-40bf-aa9c-30162c852777.jpg'
+      storeImageMedium: 'http://fleetyards.test/uploads/shop/store_image/41/ae/e29a-9d84-437b-ae3f-bd8dbd88afb4/medium_astro-9cb92a90-80c6-40bf-aa9c-30162c852777.jpg'
+      storeImageSmall: 'http://fleetyards.test/uploads/shop/store_image/41/ae/e29a-9d84-437b-ae3f-bd8dbd88afb4/small_astro-9cb92a90-80c6-40bf-aa9c-30162c852777.jpg'
+      refineryTerminal: null
+      station:
+        name: Area 18
+        slug: area-18
+examples:
+  - id: 9606253f-876f-41b7-ba4b-7146a75a0f6f
+    name: 600i Explorer
+    slug: 600i-explorer
+    storeImage: 'http://fleetyards.test/uploads/model/store_image/bd/06/2120-034e-4bdc-a979-9b02644b5f3c/Day8_Origin600i-Min_noicon-c3836ae2-3621-4be7-90aa-8c6e5c2c11ab-2044ef6b-a36a-4c20-84b2-f678498fde29.jpg'
+    storeImageLarge: 'http://fleetyards.test/uploads/model/store_image/bd/06/2120-034e-4bdc-a979-9b02644b5f3c/large_Day8_Origin600i-Min_noicon-c3836ae2-3621-4be7-90aa-8c6e5c2c11ab-2044ef6b-a36a-4c20-84b2-f678498fde29.jpg'
+    storeImageMedium: 'http://fleetyards.test/uploads/model/store_image/bd/06/2120-034e-4bdc-a979-9b02644b5f3c/medium_Day8_Origin600i-Min_noicon-c3836ae2-3621-4be7-90aa-8c6e5c2c11ab-2044ef6b-a36a-4c20-84b2-f678498fde29.jpg'
+    storeImageSmall: 'http://fleetyards.test/uploads/model/store_image/bd/06/2120-034e-4bdc-a979-9b02644b5f3c/small_Day8_Origin600i-Min_noicon-c3836ae2-3621-4be7-90aa-8c6e5c2c11ab-2044ef6b-a36a-4c20-84b2-f678498fde29.jpg'
+    category: model
+    subCategory: exploration
+    subCategoryLabel: Exploration
+    description: 'Let the voyage begin with the 2947 600i from Origin Jumpworks. This multi-role luxury vessel from Origin Jumpworks features an exquisitely detailed hull design that balances performance and versatility in a sleek and timeless form. The 600i is designed with a cutting-edge modular technology, allowing you to customize your ship for your needs. Looking to stamp your name in history with the discovery of a new star system? The 600i''s Explorer module swaps the lounge for a robust scanning station as well as additional utility hardpoints to increase the ship''s effectiveness even more.'
+    pricePerUnit: false
+    sellPrice: '9475100.0'
+    averageSellPrice: '9475100.0'
+    buyPrice: null
+    averageBuyPrice: null
+    rentalPrice1Day: null
+    averageRentalPrice1Day: null
+    rentalPrice3Days: null
+    averageRentalPrice3Days: null
+    rentalPrice7Days: null
+    averageRentalPrice7Days: null
+    rentalPrice30Days: null
+    averageRentalPrice30Days: null
+    locationLabel: sold at Astro Armada on Area 18
+    confirmed: true
+    commodityItemType: Model
+    commodityItemId: bd062120-034e-4bdc-a979-9b02644b5f3c
+    shop:
+      id: 41aee29a-9d84-437b-ae3f-bd8dbd88afb4
+      name: Astro Armada
+      slug: astro-armada
+      type: ships
+      typeLabel: Ship Store
+      stationLabel: at Area 18
+      location: null
+      locationLabel: at Area 18 on ArcCorp
+      rental: false
+      buying: false
+      selling: true
+      storeImage: 'http://fleetyards.test/uploads/shop/store_image/41/ae/e29a-9d84-437b-ae3f-bd8dbd88afb4/astro-9cb92a90-80c6-40bf-aa9c-30162c852777.jpg'
+      storeImageLarge: 'http://fleetyards.test/uploads/shop/store_image/41/ae/e29a-9d84-437b-ae3f-bd8dbd88afb4/large_astro-9cb92a90-80c6-40bf-aa9c-30162c852777.jpg'
+      storeImageMedium: 'http://fleetyards.test/uploads/shop/store_image/41/ae/e29a-9d84-437b-ae3f-bd8dbd88afb4/medium_astro-9cb92a90-80c6-40bf-aa9c-30162c852777.jpg'
+      storeImageSmall: 'http://fleetyards.test/uploads/shop/store_image/41/ae/e29a-9d84-437b-ae3f-bd8dbd88afb4/small_astro-9cb92a90-80c6-40bf-aa9c-30162c852777.jpg'
+      refineryTerminal: null
+      station:
+        name: Area 18
+        slug: area-18
+description: Shop Commodities listed in Shops
+properties:
+  id:
+    type: string
+    format: uuid
+  name:
+    type: string
+  slug:
+    type: string
+  storeImage:
+    type: string
+    format: uri
+  storeImageLarge:
+    type: string
+    format: uri
+  storeImageMedium:
+    type: string
+    format: uri
+  storeImageSmall:
+    type: string
+    format: uri
+  category:
+    type: string
+  subCategory:
+    type: string
+  subCategoryLabel:
+    type: string
+  description:
+    type: string
+  pricePerUnit:
+    type: boolean
+  sellPrice:
+    type: string
+  averageSellPrice:
+    type: string
+  buyPrice:
+    type: 'null'
+  averageBuyPrice:
+    type: 'null'
+  rentalPrice1Day:
+    type: 'null'
+  averageRentalPrice1Day:
+    type: 'null'
+  rentalPrice3Days:
+    type: 'null'
+  averageRentalPrice3Days:
+    type: 'null'
+  rentalPrice7Days:
+    type: 'null'
+  averageRentalPrice7Days:
+    type: 'null'
+  rentalPrice30Days:
+    type: 'null'
+  averageRentalPrice30Days:
+    type: 'null'
+  locationLabel:
+    type: string
+  confirmed:
+    type: boolean
+  commodityItemType:
+    type: string
+  commodityItemId:
+    type: string
+    format: uuid
+  shop:
+    $ref: ./Shop-Minimal.yaml
