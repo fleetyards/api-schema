@@ -11,7 +11,7 @@ properties:
     type:
       - string
       - 'null'
-    example: 'ORIG,DRAK'
+    example: ORIG
   logo:
     type:
       - string
