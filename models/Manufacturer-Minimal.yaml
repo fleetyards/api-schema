@@ -1,10 +1,6 @@
 type: object
 title: Manufacturer Minimal
-examples:
-  - name: Origin Jumpworks
-    slug: origin-jumpworks
-    code: ORIG
-    logo: 'http://fleetyards.test/uploads/manufacturer/logo/40/52/e7cf-5451-4a9f-a7e2-797daa26ccd8/small_logo_origin_active__1_.png'
+examples: []
 description: 'Manufacturer of Models, Components and Equipment'
 properties:
   name:
@@ -13,6 +9,8 @@ properties:
     type: string
   code:
     type: string
+    example: ORIG
   logo:
     type: string
     format: uri
+    example: 'http://fleetyards.test/uploads/manufacturer/logo/40/52/e7cf-5451-4a9f-a7e2-797daa26ccd8/small_logo_origin_active__1_.png'
