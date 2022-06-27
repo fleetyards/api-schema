@@ -1,7 +1,7 @@
 type: object
-x-examples:
-  example-1:
-    id: 719f60e4-ae48-4941-80f1-17528fd7dd06
+title: Model Minimal
+examples:
+  - id: 719f60e4-ae48-4941-80f1-17528fd7dd06
     name: 100i
     scIdentifier: orig_100i
     erkulIdentifier: orig_100i

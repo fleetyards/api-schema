@@ -1,7 +1,6 @@
 type: object
-x-examples:
-  example-1:
-    id: f3145a4d-e5a8-481e-bff3-bc5251bd0667
+examples:
+  - id: f3145a4d-e5a8-481e-bff3-bc5251bd0667
     name: Vantage Rentals
     slug: vantage-rentals
     type: rental
@@ -20,7 +19,6 @@ x-examples:
     station:
       name: Lorville
       slug: lorville
-examples: []
 description: 'Shop located on Stations, Landingzones and Outposts'
 properties:
   id:

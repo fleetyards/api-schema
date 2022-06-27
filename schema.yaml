@@ -118,9 +118,8 @@ components:
   schemas:
     Image:
       type: object
-      x-examples:
-        example-1:
-          id: 14d9aa21-b932-4c1f-b006-fa5c1154d28d
+      examples:
+        - id: 14d9aa21-b932-4c1f-b006-fa5c1154d28d
           name: IMG_2488-6a3464c6-a3a6-44b0-8639-d048dac7a1f5.JPG
           caption: null
           url: 'http://fleetyards.test/uploads/image/name/14/d9/aa21-b932-4c1f-b006-fa5c1154d28d/IMG_2488-6a3464c6-a3a6-44b0-8639-d048dac7a1f5.JPG'
@@ -193,9 +192,8 @@ components:
           format: date-time
     Video:
       type: object
-      x-examples:
-        example-1:
-          id: 6c5f649c-a7a6-45ee-a9b4-9881795f6af8
+      examples:
+        - id: 6c5f649c-a7a6-45ee-a9b4-9881795f6af8
           url: 'https://www.youtube-nocookie.com/embed/gbCSQDhPOlk'
           videoId: gbCSQDhPOlk
           type: youtube

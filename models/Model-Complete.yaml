@@ -1,9 +1,6 @@
 type: object
-x-stoplight:
-  id: f3c5f579e84a0
-x-examples:
-  example-1:
-    id: bd062120-034e-4bdc-a979-9b02644b5f3c
+examples:
+  - id: bd062120-034e-4bdc-a979-9b02644b5f3c
     name: 600i Explorer
     scIdentifier: orig_600i
     erkulIdentifier: orig_600i
@@ -259,9 +256,8 @@ x-examples:
     links:
       self: 'http://api.fleetyards.test/v1/models/600i-explorer/'
       frontend: 'http://fleetyards.test/ships/600i-explorer/'
-examples: []
 description: Ships and Vehicles
-title: ''
+title: Model Complete
 properties:
   id:
     type: string
