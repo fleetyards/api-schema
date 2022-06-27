@@ -77,8 +77,8 @@ paths:
     get:
       summary: Model Images
       tags:
-        - Images
         - Models
+        - Images
       responses:
         '200':
           description: OK
