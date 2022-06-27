@@ -114,3 +114,7 @@ properties:
     format: uuid
   shop:
     $ref: ./Shop-Minimal.yaml
+required:
+  - id
+  - name
+  - slug

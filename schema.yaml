@@ -146,7 +146,9 @@ components:
         name:
           type: string
         caption:
-          type: 'null'
+          type:
+            - 'null'
+            - string
         url:
           type: string
           format: uri
@@ -174,6 +176,10 @@ components:
               type: string
             slug:
               type: string
+          required:
+            - id
+            - name
+            - slug
         gallery:
           type: object
           properties:
@@ -184,12 +190,21 @@ components:
               type: string
             slug:
               type: string
+          required:
+            - id
         createdAt:
           type: string
           format: date-time
         updatedAt:
           type: string
           format: date-time
+      required:
+        - id
+        - url
+        - smallUrl
+        - bigUrl
+        - createdAt
+        - updatedAt
     Video:
       type: object
       examples:

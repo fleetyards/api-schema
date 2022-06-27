@@ -65,3 +65,7 @@ properties:
         type: string
       slug:
         type: string
+required:
+  - id
+  - name
+  - slug

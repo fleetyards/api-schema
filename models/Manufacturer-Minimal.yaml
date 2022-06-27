@@ -8,9 +8,18 @@ properties:
   slug:
     type: string
   code:
-    type: string
-    example: ORIG
+    type:
+      - string
+      - 'null'
+    example: 'ORIG,DRAK'
   logo:
-    type: string
+    type:
+      - string
+      - 'null'
     format: uri
     example: 'http://fleetyards.test/uploads/manufacturer/logo/40/52/e7cf-5451-4a9f-a7e2-797daa26ccd8/small_logo_origin_active__1_.png'
+required:
+  - name
+  - slug
+  - code
+  - logo

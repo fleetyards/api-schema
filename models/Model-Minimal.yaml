@@ -356,3 +356,9 @@ properties:
   updatedAt:
     type: string
     format: date-time
+required:
+  - id
+  - name
+  - slug
+  - createdAt
+  - updatedAt

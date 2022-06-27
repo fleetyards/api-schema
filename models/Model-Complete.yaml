@@ -494,3 +494,9 @@ properties:
       frontend:
         type: string
         format: uri
+required:
+  - id
+  - name
+  - slug
+  - createdAt
+  - updatedAt
