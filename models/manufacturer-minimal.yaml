@@ -1,7 +1,6 @@
 type: object
 title: Manufacturer Minimal
-examples: []
-description: 'Manufacturer of Models, Components and Equipment'
+description: Manufacturer with minimal properties
 properties:
   name:
     type: string

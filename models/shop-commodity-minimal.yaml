@@ -1,5 +1,5 @@
 type: object
-examples: []
+title: ShopCommodity Minimal
 description: Shop Commodities listed in Shops
 properties:
   id:
@@ -65,7 +65,7 @@ properties:
     type: string
     format: uuid
   shop:
-    $ref: ./Shop-Minimal.yaml
+    $ref: ./shop-minimal.yaml
 required:
   - id
   - name

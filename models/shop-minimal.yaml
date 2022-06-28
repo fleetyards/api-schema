@@ -1,5 +1,5 @@
 type: object
-examples: []
+title: Shop Minimal
 description: 'Shop located on Stations, Landingzones and Outposts'
 properties:
   id:

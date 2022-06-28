@@ -1,7 +1,6 @@
 type: object
-examples: []
+title: Model with complete properties
 description: Ships and Vehicles
-title: Model Complete
 properties:
   id:
     type: string
@@ -186,19 +185,19 @@ properties:
   soldAt:
     type: array
     items:
-      $ref: ./ShopCommodity-Minimal.yaml
+      $ref: ./shop-commodity-minimal.yaml
   boughtAt:
     type: array
     items:
-      $ref: ./ShopCommodity-Minimal.yaml
+      $ref: ./shop-commodity-minimal.yaml
   listedAt:
     type: array
     items:
-      $ref: ./ShopCommodity-Minimal.yaml
+      $ref: ./shop-commodity-minimal.yaml
   rentalAt:
     type: array
     items:
-      $ref: ./ShopCommodity-Minimal.yaml
+      $ref: ./shop-commodity-minimal.yaml
   manufacturer:
     $ref: ./Manufacturer-Minimal.yaml
   loaners:

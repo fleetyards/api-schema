@@ -1,6 +1,6 @@
 type: object
 title: Model Minimal
-examples: []
+description: Model with minimal properties
 properties:
   id:
     type: string
@@ -183,19 +183,19 @@ properties:
   soldAt:
     type: array
     items:
-      $ref: ./ShopCommodity-Minimal.yaml
+      $ref: ./shop-commodity-minimal.yaml
   boughtAt:
     type: array
     items:
-      $ref: ./ShopCommodity-Minimal.yaml
+      $ref: ./shop-commodity-minimal.yaml
   listedAt:
     type: array
     items:
-      $ref: ./ShopCommodity-Minimal.yaml
+      $ref: ./shop-commodity-minimal.yaml
   rentalAt:
     type: array
     items:
-      $ref: ./ShopCommodity-Minimal.yaml
+      $ref: ./shop-commodity-minimal.yaml
   manufacturer:
     $ref: ./Manufacturer-Minimal.yaml
   loaners:
