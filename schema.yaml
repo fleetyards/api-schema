@@ -16,6 +16,8 @@ info:
 tags:
   - name: Images
     description: Images
+  - name: Manufacturers
+    description: Manufacturers
   - name: Models
     description: Models
   - name: Videos
@@ -114,5 +116,21 @@ paths:
                   $ref: ./models/video.yaml
       operationId: get-models-slug-videos
       description: Model Videos
+  /manufacturers:
+    get:
+      summary: Manufacturers Index
+      tags: 
+        - Manufacturers
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/manufacturer.yaml
+      operationId: get-manufacturers
+      description: List of Manufacturers
 components:
   schemas: {}
