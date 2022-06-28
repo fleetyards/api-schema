@@ -1,5 +1,7 @@
 type: object
-title: Model with complete properties
+x-stoplight:
+  id: 2575a15f7c096
+title: Model
 description: Ships and Vehicles
 properties:
   id:
@@ -199,7 +201,7 @@ properties:
     items:
       $ref: ./shop-commodity-minimal.yaml
   manufacturer:
-    $ref: ./Manufacturer-Minimal.yaml
+    $ref: ./manufacturer-minimal.yaml
   loaners:
     type: array
     items:

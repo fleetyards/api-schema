@@ -63,7 +63,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ./models/model-complete.yaml
+                $ref: ./models/model.yaml
       operationId: get-models-slug
       description: Model Detail
   '/models/{slug}/images':
