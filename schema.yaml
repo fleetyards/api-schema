@@ -114,22 +114,6 @@ paths:
                   $ref: '#/components/schemas/Video'
       operationId: get-models-slug-videos
       description: Model Videos
-  /me:
-    get:
-      summary: Current User
-      tags: []
-      responses: {}
-      operationId: get-me
-      requestBody:
-        content:
-          application/json:
-            schema:
-              type: array
-              items:
-                type: object
-                properties:
-                  test:
-                    type: string
 components:
   schemas:
     Image:
