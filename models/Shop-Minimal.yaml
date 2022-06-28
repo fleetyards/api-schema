@@ -1,24 +1,5 @@
 type: object
-examples:
-  - id: f3145a4d-e5a8-481e-bff3-bc5251bd0667
-    name: Vantage Rentals
-    slug: vantage-rentals
-    type: rental
-    typeLabel: Rental
-    stationLabel: at Lorville
-    location: null
-    locationLabel: at Lorville on Hurston
-    rental: true
-    buying: false
-    selling: false
-    storeImage: 'http://fleetyards.test/uploads/shop/store_image/f3/14/5a4d-e5a8-481e-bff3-bc5251bd0667/vantage-e3210b03-4671-40ea-a61d-750f3c4c18c7.jpg'
-    storeImageLarge: 'http://fleetyards.test/uploads/shop/store_image/f3/14/5a4d-e5a8-481e-bff3-bc5251bd0667/large_vantage-e3210b03-4671-40ea-a61d-750f3c4c18c7.jpg'
-    storeImageMedium: 'http://fleetyards.test/uploads/shop/store_image/f3/14/5a4d-e5a8-481e-bff3-bc5251bd0667/medium_vantage-e3210b03-4671-40ea-a61d-750f3c4c18c7.jpg'
-    storeImageSmall: 'http://fleetyards.test/uploads/shop/store_image/f3/14/5a4d-e5a8-481e-bff3-bc5251bd0667/small_vantage-e3210b03-4671-40ea-a61d-750f3c4c18c7.jpg'
-    refineryTerminal: false
-    station:
-      name: Lorville
-      slug: lorville
+examples: []
 description: 'Shop located on Stations, Landingzones and Outposts'
 properties:
   id:
