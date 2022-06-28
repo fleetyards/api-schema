@@ -1,0 +1,47 @@
+type: object
+title: Image
+description: Image
+properties:
+  id:
+    type: string
+    format: uuid
+  name:
+    type: string
+  caption:
+    type:
+      - string
+      - 'null'
+  url:
+    type: string
+    format: uri
+  width:
+    type: integer
+  height:
+    type: integer
+  type:
+    type: string
+  background:
+    type: boolean
+  smallUrl:
+    type: string
+    format: uri
+  bigUrl:
+    type: string
+    format: uri
+  model:
+    $ref: ./gallery.yaml
+  gallery:
+    $ref: ./gallery.yaml
+  createdAt:
+    type: string
+    format: date-time
+  updatedAt:
+    type: string
+    format: date-time
+required:
+  - id
+  - url
+  - smallUrl
+  - bigUrl
+  - createdAt
+  - updatedAt

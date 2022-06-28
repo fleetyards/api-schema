@@ -41,7 +41,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: ./models/Model-Minimal.yaml
+                  $ref: ./models/model-minimal.yaml
               examples: {}
       operationId: get-models
       description: List of Models
@@ -63,7 +63,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ./models/Model-Complete.yaml
+                $ref: ./models/model-complete.yaml
       operationId: get-models-slug
       description: Model Detail
   '/models/{slug}/images':
@@ -87,7 +87,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Image'
+                  $ref: ./models/image.yaml
       operationId: get-models-slug-images
       description: Model Images
   '/models/{slug}/videos':
@@ -111,125 +111,8 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Video'
+                  $ref: ./models/video.yaml
       operationId: get-models-slug-videos
       description: Model Videos
 components:
-  schemas:
-    Image:
-      type: object
-      examples:
-        - id: 14d9aa21-b932-4c1f-b006-fa5c1154d28d
-          name: IMG_2488-6a3464c6-a3a6-44b0-8639-d048dac7a1f5.JPG
-          caption: null
-          url: 'http://fleetyards.test/uploads/image/name/14/d9/aa21-b932-4c1f-b006-fa5c1154d28d/IMG_2488-6a3464c6-a3a6-44b0-8639-d048dac7a1f5.JPG'
-          width: 3840
-          height: 2160
-          type: image/jpeg
-          background: true
-          smallUrl: 'http://fleetyards.test/uploads/image/name/14/d9/aa21-b932-4c1f-b006-fa5c1154d28d/small_IMG_2488-6a3464c6-a3a6-44b0-8639-d048dac7a1f5.JPG'
-          bigUrl: 'http://fleetyards.test/uploads/image/name/14/d9/aa21-b932-4c1f-b006-fa5c1154d28d/big_IMG_2488-6a3464c6-a3a6-44b0-8639-d048dac7a1f5.JPG'
-          model:
-            id: bd062120-034e-4bdc-a979-9b02644b5f3c
-            name: 600i Explorer
-            slug: 600i-explorer
-          gallery:
-            id: bd062120-034e-4bdc-a979-9b02644b5f3c
-            name: 600i Explorer
-            slug: 600i-explorer
-          createdAt: '2021-09-14T17:48:14Z'
-          updatedAt: '2021-09-14T17:48:16Z'
-      properties:
-        id:
-          type: string
-          format: uuid
-        name:
-          type: string
-        caption:
-          type:
-            - 'null'
-            - string
-        url:
-          type: string
-          format: uri
-        width:
-          type: integer
-        height:
-          type: integer
-        type:
-          type: string
-        background:
-          type: boolean
-        smallUrl:
-          type: string
-          format: uri
-        bigUrl:
-          type: string
-          format: uri
-        model:
-          type: object
-          properties:
-            id:
-              type: string
-              format: uuid
-            name:
-              type: string
-            slug:
-              type: string
-          required:
-            - id
-            - name
-            - slug
-        gallery:
-          type: object
-          properties:
-            id:
-              type: string
-              format: uuid
-            name:
-              type: string
-            slug:
-              type: string
-          required:
-            - id
-        createdAt:
-          type: string
-          format: date-time
-        updatedAt:
-          type: string
-          format: date-time
-      required:
-        - id
-        - url
-        - smallUrl
-        - bigUrl
-        - createdAt
-        - updatedAt
-    Video:
-      type: object
-      examples:
-        - id: 6c5f649c-a7a6-45ee-a9b4-9881795f6af8
-          url: 'https://www.youtube-nocookie.com/embed/gbCSQDhPOlk'
-          videoId: gbCSQDhPOlk
-          type: youtube
-          createdAt: '2017-08-28T21:46:01Z'
-          updatedAt: '2018-05-06T19:50:00Z'
-      properties:
-        id:
-          type: string
-          format: uuid
-        url:
-          type: string
-          format: uri
-        videoId:
-          type: string
-        type:
-          type: string
-          enum:
-            - youtube
-        createdAt:
-          type: string
-          format: date-time
-        updatedAt:
-          type: string
-          format: date-time
+  schemas: {}

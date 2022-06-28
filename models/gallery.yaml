@@ -1,0 +1,15 @@
+type: object
+title: Gallery
+description: Gallery for Images
+properties:
+  id:
+    type: string
+    format: uuid
+  name:
+    type: string
+  slug:
+    type: string
+required:
+  - id
+  - name
+  - slug

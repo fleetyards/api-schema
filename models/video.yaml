@@ -1,0 +1,22 @@
+type: object
+title: Video
+description: Video
+properties:
+  id:
+    type: string
+    format: uuid
+  url:
+    type: string
+    format: uri
+  videoId:
+    type: string
+  type:
+    type: string
+    enum:
+      - youtube
+  createdAt:
+    type: string
+    format: date-time
+  updatedAt:
+    type: string
+    format: date-time

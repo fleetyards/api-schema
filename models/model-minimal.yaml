@@ -197,7 +197,7 @@ properties:
     items:
       $ref: ./shop-commodity-minimal.yaml
   manufacturer:
-    $ref: ./Manufacturer-Minimal.yaml
+    $ref: ./manufacturer-minimal.yaml
   loaners:
     type: array
     items:
