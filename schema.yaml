@@ -147,7 +147,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: ./models/List.yaml
+                  $ref: ./models/list.yaml
       operationId: get-lists
       description: List of Lists
   '/lists/{id}':
@@ -169,7 +169,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ./models/List.yaml
+                $ref: ./models/list.yaml
         '404':
           description: Not Found
       operationId: get-list
