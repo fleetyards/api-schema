@@ -1,7 +1,8 @@
+type: object
 title: List
+description: 'Basic Lists for Names, Ships etc.'
 x-stoplight:
   id: fdwnohjv66cif
-type: object
 properties:
   id:
     type: string
@@ -17,4 +18,3 @@ properties:
   updatedAt:
     type: string
     format: date-time
-description: 'Basic Lists for Names, Ships etc.'
