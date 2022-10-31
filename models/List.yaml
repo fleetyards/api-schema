@@ -1,8 +1,6 @@
 title: List
 x-stoplight:
   id: fdwnohjv66cif
-x-tags:
-  - lists
 type: object
 properties:
   id:
