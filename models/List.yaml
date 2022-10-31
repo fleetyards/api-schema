@@ -1,0 +1,22 @@
+title: List
+x-stoplight:
+  id: fdwnohjv66cif
+x-tags:
+  - lists
+type: object
+properties:
+  id:
+    type: string
+    format: uuid
+  name:
+    type: string
+  values:
+    type: string
+    format: json-pointer
+  createdAt:
+    type: string
+    format: date-time
+  updatedAt:
+    type: string
+    format: date-time
+description: 'Basic Lists for Names, Ships etc.'

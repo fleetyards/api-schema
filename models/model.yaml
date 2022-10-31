@@ -3,6 +3,313 @@ x-stoplight:
   id: 2575a15f7c096
 title: Model
 description: Ships and Vehicles
+examples:
+  - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+    name: string
+    scIdentifier: string
+    erkulIdentifier: string
+    rsiName: string
+    slug: string
+    rsiSlug: string
+    description: string
+    length: 0
+    lengthLabel: string
+    fleetchartLength: 0
+    beam: 0
+    beamLabel: string
+    height: 0
+    heightLabel: string
+    mass: 0
+    massLabel: 0
+    cargo: 0
+    cargoLabel: string
+    hydrogenFuelTankSize: string
+    quantumFuelTankSize: string
+    minCrew: 0
+    minCrewLabel: 0
+    maxCrew: 0
+    maxCrewLabel: 0
+    scmSpeed: string
+    afterburnerSpeed: string
+    groundSpeed: null
+    afterburnerGroundSpeed: null
+    pitchMax: string
+    yawMax: string
+    rollMax: string
+    xaxisAcceleration: string
+    yaxisAcceleration: string
+    zaxisAcceleration: string
+    size: string
+    sizeLabel: string
+    storeImage: string
+    storeImageLarge: string
+    storeImageMedium: string
+    storeImageSmall: string
+    fleetchartImage: string
+    topView: string
+    topViewSmall: string
+    topViewMedium: string
+    topViewLarge: string
+    topViewXlarge: string
+    topViewWidth: 0
+    topViewHeight: 0
+    sideView: string
+    sideViewSmall: string
+    sideViewMedium: string
+    sideViewLarge: string
+    sideViewXlarge: string
+    sideViewWidth: 0
+    sideViewHeight: 0
+    angledView: 'http://example.com'
+    angledViewSmall: 'http://example.com'
+    angledViewMedium: string
+    angledViewLarge: string
+    angledViewXlarge: string
+    angledViewWidth: 0
+    angledViewHeight: 0
+    brochure: string
+    holo: string
+    holoColored: true
+    storeUrl: string
+    salesPageUrl: string
+    price: 0
+    priceLabel: string
+    pledgePrice: 0
+    pledgePriceLabel: string
+    lastPledgePrice: 0
+    lastPledgePriceLabel: string
+    onSale: true
+    productionStatus: string
+    productionNote: null
+    classification: string
+    classificationLabel: string
+    focus: string
+    rsiId: 0
+    hasImages: true
+    hasVideos: true
+    hasModules: true
+    hasUpgrades: true
+    hasPaints: true
+    lastUpdatedAt: '2019-08-24T14:15:22Z'
+    lastUpdatedAtLabel: string
+    soldAt:
+      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+        name: string
+        slug: string
+        storeImage: 'http://example.com'
+        storeImageLarge: 'http://example.com'
+        storeImageMedium: 'http://example.com'
+        storeImageSmall: 'http://example.com'
+        category: string
+        subCategory: string
+        subCategoryLabel: string
+        description: string
+        pricePerUnit: true
+        sellPrice: string
+        averageSellPrice: string
+        buyPrice: null
+        averageBuyPrice: null
+        rentalPrice1Day: null
+        averageRentalPrice1Day: null
+        rentalPrice3Days: null
+        averageRentalPrice3Days: null
+        rentalPrice7Days: null
+        averageRentalPrice7Days: null
+        rentalPrice30Days: null
+        averageRentalPrice30Days: null
+        locationLabel: string
+        confirmed: true
+        commodityItemType: string
+        commodityItemId: 9d3c6b62-2f02-4230-b8cd-3f9b67647f6d
+        shop:
+          id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+          name: string
+          slug: string
+          type: string
+          typeLabel: string
+          stationLabel: string
+          location: null
+          locationLabel: string
+          rental: true
+          buying: true
+          selling: true
+          storeImage: 'http://example.com'
+          storeImageLarge: 'http://example.com'
+          storeImageMedium: 'http://example.com'
+          storeImageSmall: 'http://example.com'
+          refineryTerminal: true
+          station:
+            name: string
+            slug: string
+    boughtAt:
+      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+        name: string
+        slug: string
+        storeImage: 'http://example.com'
+        storeImageLarge: 'http://example.com'
+        storeImageMedium: 'http://example.com'
+        storeImageSmall: 'http://example.com'
+        category: string
+        subCategory: string
+        subCategoryLabel: string
+        description: string
+        pricePerUnit: true
+        sellPrice: string
+        averageSellPrice: string
+        buyPrice: null
+        averageBuyPrice: null
+        rentalPrice1Day: null
+        averageRentalPrice1Day: null
+        rentalPrice3Days: null
+        averageRentalPrice3Days: null
+        rentalPrice7Days: null
+        averageRentalPrice7Days: null
+        rentalPrice30Days: null
+        averageRentalPrice30Days: null
+        locationLabel: string
+        confirmed: true
+        commodityItemType: string
+        commodityItemId: 9d3c6b62-2f02-4230-b8cd-3f9b67647f6d
+        shop:
+          id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+          name: string
+          slug: string
+          type: string
+          typeLabel: string
+          stationLabel: string
+          location: null
+          locationLabel: string
+          rental: true
+          buying: true
+          selling: true
+          storeImage: 'http://example.com'
+          storeImageLarge: 'http://example.com'
+          storeImageMedium: 'http://example.com'
+          storeImageSmall: 'http://example.com'
+          refineryTerminal: true
+          station:
+            name: string
+            slug: string
+    listedAt:
+      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+        name: string
+        slug: string
+        storeImage: 'http://example.com'
+        storeImageLarge: 'http://example.com'
+        storeImageMedium: 'http://example.com'
+        storeImageSmall: 'http://example.com'
+        category: string
+        subCategory: string
+        subCategoryLabel: string
+        description: string
+        pricePerUnit: true
+        sellPrice: string
+        averageSellPrice: string
+        buyPrice: null
+        averageBuyPrice: null
+        rentalPrice1Day: null
+        averageRentalPrice1Day: null
+        rentalPrice3Days: null
+        averageRentalPrice3Days: null
+        rentalPrice7Days: null
+        averageRentalPrice7Days: null
+        rentalPrice30Days: null
+        averageRentalPrice30Days: null
+        locationLabel: string
+        confirmed: true
+        commodityItemType: string
+        commodityItemId: 9d3c6b62-2f02-4230-b8cd-3f9b67647f6d
+        shop:
+          id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+          name: string
+          slug: string
+          type: string
+          typeLabel: string
+          stationLabel: string
+          location: null
+          locationLabel: string
+          rental: true
+          buying: true
+          selling: true
+          storeImage: 'http://example.com'
+          storeImageLarge: 'http://example.com'
+          storeImageMedium: 'http://example.com'
+          storeImageSmall: 'http://example.com'
+          refineryTerminal: true
+          station:
+            name: string
+            slug: string
+    rentalAt:
+      - id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+        name: string
+        slug: string
+        storeImage: 'http://example.com'
+        storeImageLarge: 'http://example.com'
+        storeImageMedium: 'http://example.com'
+        storeImageSmall: 'http://example.com'
+        category: string
+        subCategory: string
+        subCategoryLabel: string
+        description: string
+        pricePerUnit: true
+        sellPrice: string
+        averageSellPrice: string
+        buyPrice: null
+        averageBuyPrice: null
+        rentalPrice1Day: null
+        averageRentalPrice1Day: null
+        rentalPrice3Days: null
+        averageRentalPrice3Days: null
+        rentalPrice7Days: null
+        averageRentalPrice7Days: null
+        rentalPrice30Days: null
+        averageRentalPrice30Days: null
+        locationLabel: string
+        confirmed: true
+        commodityItemType: string
+        commodityItemId: 9d3c6b62-2f02-4230-b8cd-3f9b67647f6d
+        shop:
+          id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+          name: string
+          slug: string
+          type: string
+          typeLabel: string
+          stationLabel: string
+          location: null
+          locationLabel: string
+          rental: true
+          buying: true
+          selling: true
+          storeImage: 'http://example.com'
+          storeImageLarge: 'http://example.com'
+          storeImageMedium: 'http://example.com'
+          storeImageSmall: 'http://example.com'
+          refineryTerminal: true
+          station:
+            name: string
+            slug: string
+    manufacturer:
+      name: string
+      slug: string
+      code: ORIG
+      logo: 'http://fleetyards.test/uploads/manufacturer/logo/40/52/e7cf-5451-4a9f-a7e2-797daa26ccd8/small_logo_origin_active__1_.png'
+    loaners:
+      - slug: string
+        name: string
+    docks:
+      - size: string
+        count: 0
+        typeLabel: string
+        type: string
+    createdAt: '2019-08-24T14:15:22Z'
+    updatedAt: '2019-08-24T14:15:22Z'
+    links:
+      self: 'http://example.com'
+      frontend: 'http://example.com'
+    metaData:
+      id: string
+      createdAt: string
+      updatedAt: string
 properties:
   id:
     type: string

@@ -2,10 +2,10 @@ openapi: 3.1.0
 x-stoplight:
   id: dd4a2d0985b96
 info:
-  title: V1 Schema
-  version: '1.0'
+  title: schema-v1
+  description: FleetYards Api Schema V1
   summary: V1 Schema
-  description: V1 Schema
+  version: '1.0'
   contact:
     name: Marten Klitzke
     url: 'https://fleetyards.net'
@@ -114,12 +114,68 @@ paths:
                 type: array
                 items:
                   $ref: ./models/video.yaml
+              examples:
+                example-1:
+                  value:
+                    id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+                    name: string
+                    slug: string
+                    storeImage: 'http://example.com'
+                    storeImageLarge: 'http://example.com'
+                    storeImageMedium: 'http://example.com'
+                    storeImageSmall: 'http://example.com'
+                    category: string
+                    subCategory: string
+                    subCategoryLabel: string
+                    description: string
+                    pricePerUnit: true
+                    sellPrice: string
+                    averageSellPrice: string
+                    buyPrice: null
+                    averageBuyPrice: null
+                    rentalPrice1Day: null
+                    averageRentalPrice1Day: null
+                    rentalPrice3Days: null
+                    averageRentalPrice3Days: null
+                    rentalPrice7Days: null
+                    averageRentalPrice7Days: null
+                    rentalPrice30Days: null
+                    averageRentalPrice30Days: null
+                    locationLabel: string
+                    confirmed: true
+                    commodityItemType: string
+                    commodityItemId: 9d3c6b62-2f02-4230-b8cd-3f9b67647f6d
+                    shop:
+                      id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
+                      name: string
+                      slug: string
+                      type: string
+                      typeLabel: string
+                      stationLabel: string
+                      location: null
+                      locationLabel: string
+                      rental: true
+                      buying: true
+                      selling: true
+                      storeImage: 'http://example.com'
+                      storeImageLarge: 'http://example.com'
+                      storeImageMedium: 'http://example.com'
+                      storeImageSmall: 'http://example.com'
+                      refineryTerminal: true
+                      station:
+                        name: string
+                        slug: string
+                    url: 'http://example.com'
+                    videoId: string
+                    type: youtube
+                    createdAt: '2019-08-24T14:15:22Z'
+                    updatedAt: '2019-08-24T14:15:22Z'
       operationId: get-models-slug-videos
       description: Model Videos
   /manufacturers:
     get:
       summary: Manufacturers Index
-      tags: 
+      tags:
         - Manufacturers
       responses:
         '200':
@@ -134,3 +190,9 @@ paths:
       description: List of Manufacturers
 components:
   schemas: {}
+  securitySchemes:
+    sessionCookie:
+      name: FLTYRD
+      type: apiKey
+      in: cookie
+      description: Session Cookie for Authentication
