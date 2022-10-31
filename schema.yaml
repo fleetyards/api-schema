@@ -14,16 +14,12 @@ info:
     name: GNU General Public License v3.0
     url: 'https://github.com/fleetyards/fleetyards/blob/main/LICENSE'
 tags:
-  - name: Images
-    description: Images
   - name: Lists
     description: Lists
   - name: Manufacturers
     description: Manufacturers
   - name: Models
     description: Models
-  - name: Videos
-    description: Videos
 servers:
   - url: 'http://api.fleetyards.test/v1'
     description: development
@@ -68,7 +64,7 @@ paths:
             application/json:
               schema:
                 $ref: ./models/model.yaml
-      operationId: get-models-slug
+      operationId: get-model
       description: Model Detail
   '/models/{slug}/images':
     parameters:
@@ -82,7 +78,6 @@ paths:
       summary: Model Images
       tags:
         - Models
-        - Images
       responses:
         '200':
           description: OK
@@ -92,7 +87,7 @@ paths:
                 type: array
                 items:
                   $ref: ./models/image.yaml
-      operationId: get-models-slug-images
+      operationId: get-model-images
       description: Model Images
   '/models/{slug}/videos':
     parameters:
@@ -106,7 +101,6 @@ paths:
       summary: Model Videos
       tags:
         - Models
-        - Videos
       responses:
         '200':
           description: OK
@@ -116,7 +110,7 @@ paths:
                 type: array
                 items:
                   $ref: ./models/video.yaml
-      operationId: get-models-slug-videos
+      operationId: get-model-videos
       description: Model Videos
   /manufacturers:
     get:
