@@ -16,6 +16,8 @@ info:
 tags:
   - name: Images
     description: Images
+  - name: Lists
+    description: Lists
   - name: Manufacturers
     description: Manufacturers
   - name: Models
@@ -114,62 +116,6 @@ paths:
                 type: array
                 items:
                   $ref: ./models/video.yaml
-              examples:
-                example-1:
-                  value:
-                    id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
-                    name: string
-                    slug: string
-                    storeImage: 'http://example.com'
-                    storeImageLarge: 'http://example.com'
-                    storeImageMedium: 'http://example.com'
-                    storeImageSmall: 'http://example.com'
-                    category: string
-                    subCategory: string
-                    subCategoryLabel: string
-                    description: string
-                    pricePerUnit: true
-                    sellPrice: string
-                    averageSellPrice: string
-                    buyPrice: null
-                    averageBuyPrice: null
-                    rentalPrice1Day: null
-                    averageRentalPrice1Day: null
-                    rentalPrice3Days: null
-                    averageRentalPrice3Days: null
-                    rentalPrice7Days: null
-                    averageRentalPrice7Days: null
-                    rentalPrice30Days: null
-                    averageRentalPrice30Days: null
-                    locationLabel: string
-                    confirmed: true
-                    commodityItemType: string
-                    commodityItemId: 9d3c6b62-2f02-4230-b8cd-3f9b67647f6d
-                    shop:
-                      id: 497f6eca-6276-4993-bfeb-53cbbbba6f08
-                      name: string
-                      slug: string
-                      type: string
-                      typeLabel: string
-                      stationLabel: string
-                      location: null
-                      locationLabel: string
-                      rental: true
-                      buying: true
-                      selling: true
-                      storeImage: 'http://example.com'
-                      storeImageLarge: 'http://example.com'
-                      storeImageMedium: 'http://example.com'
-                      storeImageSmall: 'http://example.com'
-                      refineryTerminal: true
-                      station:
-                        name: string
-                        slug: string
-                    url: 'http://example.com'
-                    videoId: string
-                    type: youtube
-                    createdAt: '2019-08-24T14:15:22Z'
-                    updatedAt: '2019-08-24T14:15:22Z'
       operationId: get-models-slug-videos
       description: Model Videos
   /manufacturers:
@@ -188,6 +134,46 @@ paths:
                   $ref: ./models/manufacturer.yaml
       operationId: get-manufacturers
       description: List of Manufacturers
+  /lists:
+    get:
+      summary: All lists for given user
+      tags:
+        - Lists
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ./models/List.yaml
+      operationId: get-lists
+      description: List of Lists
+  '/lists/{id}':
+    parameters:
+      - schema:
+          type: string
+          format: uuid
+        name: id
+        in: path
+        required: true
+        description: Id of List
+    get:
+      summary: Get List Detail
+      tags:
+        - Lists
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./models/List.yaml
+        '404':
+          description: Not Found
+      operationId: get-list
+      description: List Detail
 components:
   schemas: {}
   securitySchemes:
